@@ -1,0 +1,29 @@
+{
+  "qInfo": {
+    "qId": "d2a4a544-9de1-4571-ad7f-d979c5c2a5d8",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Comparación PCP - CMG",
+    "qDef": "AVG(\r\n\t$(=\n    \tIF(GetSelectedCount(nombre_barra)=0,\n    \tvFiltrosComparacionPCP,\n        vSinFiltrosPCP\n    \t)\n    )\ncmg)\n",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='PCP'",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#,##0.0",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Comparación PCP - CMG",
+    "description": "",
+    "tags": []
+  }
+}

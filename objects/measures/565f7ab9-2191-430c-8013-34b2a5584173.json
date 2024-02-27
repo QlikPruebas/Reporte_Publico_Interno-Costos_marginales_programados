@@ -1,0 +1,29 @@
+{
+  "qInfo": {
+    "qId": "565f7ab9-2191-430c-8013-34b2a5584173",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Comparación PID - CMG",
+    "qDef": "AVG(\r\n\t$(=\n    \tIF(GetSelectedCount(nombre_barra)=0,\n    \tvFiltrosComparacionPID,\n        vSinFiltrosPID\n    \t)\n    )\ncmg)\n",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='PID'",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#,##0.0",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Comparación PID - CMG",
+    "description": "",
+    "tags": []
+  }
+}

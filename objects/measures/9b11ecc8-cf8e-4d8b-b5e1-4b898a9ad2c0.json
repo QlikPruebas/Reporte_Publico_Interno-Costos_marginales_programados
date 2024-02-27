@@ -1,0 +1,29 @@
+{
+  "qInfo": {
+    "qId": "9b11ecc8-cf8e-4d8b-b5e1-4b898a9ad2c0",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Comparación - CMG",
+    "qDef": "RANGESUM([Comparación PID - CMG],[Comparación PCP - CMG],[Comparación PMP - CMG],[Comparación PLP - CMG])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='Costo Marginal [USD/MWh]'",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#,##0.0",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Comparación - CMG",
+    "description": "",
+    "tags": []
+  }
+}

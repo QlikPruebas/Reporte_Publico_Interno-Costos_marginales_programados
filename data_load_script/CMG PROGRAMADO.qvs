@@ -1,0 +1,26 @@
+///$tab CMG PROGRAMADO
+COSTO_MARGINAL_PROGRAMADO:
+LOAD
+    %KEY_BLOQUE_FUENTE_VERSION,
+    %KEY_DICCIONARIO_BARRAS,
+    nombre_barra,
+    cmg,
+    unidad,
+    intervalo,
+    fuente,
+    fecha_version,
+    fecha_hora_version,
+    numero_version,
+    bloque,
+    etapa,
+    hidro
+//     hidro			AS HidroFiltro
+FROM [lib://STG/PLATAFORMA PROGRAMACION/STG_PRG_CMG_PROGRAMADO.qvd]
+(qvd);
+
+Hidrologia:
+LOAD
+    %KEY_BLOQUE_FUENTE_VERSION,
+    hidro			AS HidroFiltro
+FROM [lib://STG/PLATAFORMA PROGRAMACION/STG_PRG_CMG_PROGRAMADO.qvd]
+(qvd);

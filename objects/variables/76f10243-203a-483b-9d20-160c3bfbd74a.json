@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "76f10243-203a-483b-9d20-160c3bfbd74a",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vFiltrosComparacion",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<nombre_barra={'Quillota220'},Fecha= {\">=$(=DATE(Min(Fecha)-2))\"}>}",
+  "tags": []
+}

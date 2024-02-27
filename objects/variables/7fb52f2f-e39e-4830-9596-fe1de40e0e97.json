@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "7fb52f2f-e39e-4830-9596-fe1de40e0e97",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vSinFiltrosPIDBarrasPredefinidas",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<nombre_barra={'Cardones220','Tarapaca220','PAzucar220','Atacama220_BP1','Charrua220','Crucero220','Quillota220','PMontt220'},fuente={'PID'},hidro,bloque,etapa>}",
+  "tags": []
+}

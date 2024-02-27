@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "7aac914b-66c8-470a-b1b6-e003cb0f30b7",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vFiltrosComparacionPID",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<nombre_barra={'Quillota220'},fuente = {'PID'},hidro,bloque,etapa, Fecha= {\">=$(=DATE(Min({<hidro,bloque,etapa>} Fecha)-2))\"}>}",
+  "tags": []
+}

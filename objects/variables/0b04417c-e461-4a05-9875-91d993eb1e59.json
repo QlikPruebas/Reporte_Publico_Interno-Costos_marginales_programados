@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "0b04417c-e461-4a05-9875-91d993eb1e59",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vFiltrosComparacionPLP",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<nombre_barra={'Quillota220'},fuente = {'PLP'},HidroFiltro={'MEDIA'},fecha_hora_version,  Fecha= {\">=$(=DATE(Min({<fuente = {'PLP'},HidroFiltro={'MEDIA'},fecha_hora_version>}Fecha)-2))\"}>}",
+  "tags": []
+}

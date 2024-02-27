@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "93acecc0-a28d-4abf-bbc1-ace2cb999539",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vRecargaManualColor",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "0",
+  "tags": []
+}

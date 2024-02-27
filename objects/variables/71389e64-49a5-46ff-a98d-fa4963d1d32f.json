@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "71389e64-49a5-46ff-a98d-fa4963d1d32f",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vSinFiltrosPCPBarrasPredefinidas",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<nombre_barra={'Cardones220','Tarapaca220','PAzucar220','Atacama220_BP1','Charrua220','Crucero220','Quillota220','PMontt220'},fuente={'PCP'},hidro,bloque,etapa,fecha_hora_version>}",
+  "tags": []
+}

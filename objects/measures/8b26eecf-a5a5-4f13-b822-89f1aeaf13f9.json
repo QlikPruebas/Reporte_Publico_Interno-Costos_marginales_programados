@@ -1,0 +1,29 @@
+{
+  "qInfo": {
+    "qId": "8b26eecf-a5a5-4f13-b822-89f1aeaf13f9",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "CMG PCP",
+    "qDef": "AVG(\r\n\t$(=\n      IF(GetSelectedCount(nombre_barra)>0,\n      vSinFiltrosPCP,\n          IF(GetSelectedCount(Fecha)=0 AND GetSelectedCount(Fecha_Hora)=0 AND GetSelectedCount(Mes)=0 AND GetSelectedCount(Año)=0 AND GetSelectedCount(Fecha_Efectiva)=0 AND GetSelectedCount(fecha_version_indhor)=0 AND GetSelectedCount(fecha_version)=0,\n          vFiltrosPCP,\n          vSinFiltrosPCPBarrasPredefinidas\n          )\n      )\n    )\ncmg)\n",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='Costo Marginal [USD/MWh]'",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#,##0.0",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "CMG PCP",
+    "description": "",
+    "tags": []
+  }
+}

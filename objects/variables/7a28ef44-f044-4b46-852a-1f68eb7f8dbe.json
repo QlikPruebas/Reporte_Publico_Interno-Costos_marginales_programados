@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "7a28ef44-f044-4b46-852a-1f68eb7f8dbe",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vSinFiltrosPMPBarrasPredefinidas",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<nombre_barra={'Cardones220','Tarapaca220','PAzucar220','Atacama220_BP1','Charrua220','Crucero220','Quillota220','PMontt220'},fuente={'PMP'},HidroFiltro={'MEDIA'},fecha_hora_version>}",
+  "tags": []
+}

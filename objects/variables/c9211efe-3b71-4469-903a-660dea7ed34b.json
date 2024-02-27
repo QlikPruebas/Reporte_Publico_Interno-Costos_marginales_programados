@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "c9211efe-3b71-4469-903a-660dea7ed34b",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vSinFiltroComparativo",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<fuente={'PID','PCP','PMP','PLP'}>}",
+  "tags": []
+}

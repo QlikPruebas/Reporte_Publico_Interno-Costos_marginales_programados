@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "a16006a7-d65e-476e-b9fe-ae845f5fa61c",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vFiltrosComparacionPCP",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<nombre_barra={'Quillota220'},fuente = {'PCP'},hidro,bloque,etapa,fecha_hora_version, Fecha= {\">=$(=DATE(Min({<hidro,bloque,etapa,fecha_hora_version>}Fecha)-2))\"}>}",
+  "tags": []
+}

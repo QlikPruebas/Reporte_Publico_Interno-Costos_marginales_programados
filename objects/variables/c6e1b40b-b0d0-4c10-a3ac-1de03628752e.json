@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "c6e1b40b-b0d0-4c10-a3ac-1de03628752e",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vFiltrosPLP",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<nombre_barra={'Cardones220','Tarapaca220','PAzucar220','Atacama220_BP1','Charrua220','Crucero220','Quillota220','PMontt220'},fuente = {'PLP'},HidroFiltro={'MEDIA'},fecha_hora_version,AñoMesNum= {\">=$(=MIN({<fuente = {'PLP'},HidroFiltro={'MEDIA'},fecha_hora_version>}AñoMesNum)+10) <=$(=MIN({<fuente = {'PLP'},HidroFiltro={'MEDIA'},fecha_hora_version>}AñoMesNum)+15)\"}>}",
+  "tags": []
+}

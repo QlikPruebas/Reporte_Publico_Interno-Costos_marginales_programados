@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "65e16c5e-e7e0-4bac-a5b2-3c5fe62c1c06",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vFiltrosComparacionPMP",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<nombre_barra={'Quillota220'},fuente = {'PMP'},HidroFiltro={'MEDIA'},fecha_hora_version,  Fecha= {\">=$(=DATE(Min({<fuente = {'PMP'},HidroFiltro={'MEDIA'},fecha_hora_version>}Fecha)-2))\"}>}",
+  "tags": []
+}

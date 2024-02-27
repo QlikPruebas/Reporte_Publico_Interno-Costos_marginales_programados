@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "552cb6c7-73f3-4b98-8d19-50607f9b245b",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vMensajeError",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "Los filtros que ha seleccionado no arrojan ningún dato. Por favor, revíselos y vuelva a intentar.",
+  "tags": []
+}
